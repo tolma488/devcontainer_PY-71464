@@ -1,0 +1,9 @@
+{
+    "name": "devcontainer_test",
+    "service": "app",
+    "dockerComposeFile": [
+      "docker-compose.yml",
+      "docker-compose.override.yml"
+    ],
+    "initializeCommand": "touch .devcontainer/docker-compose.override.yml"
+}
